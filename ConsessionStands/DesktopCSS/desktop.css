@@ -1,11 +1,23 @@
-@import url()
+/* @import url() */
 
 .JP-Header-About {
+    display: flex;
+    max-height: 130px;
+    width: 100vw;
+}
 
+.header-links {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.JP-Header-Logo {
+    height: 130px;
+    width: 130px;
 }
 
 body {
-    
+
 }
 
 .NAV-Title {
@@ -14,9 +26,9 @@ body {
     font-size: 3em;
 }
 
-img[src^="map"] {
-    width: ;
-    height: ;
+.Map-Image {
+    width: 1202;
+    height: 687;
 
 }
 img[src^="stands/MainImg/"] {
