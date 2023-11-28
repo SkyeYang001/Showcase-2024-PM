@@ -17,7 +17,7 @@
 }
 
 body {
-
+    
 }
 
 .NAV-Title {
@@ -26,9 +26,9 @@ body {
     font-size: 3em;
 }
 
-.Map-Image {
-    width: 1202;
-    height: 687;
+.NAV-Map-Image {
+    width: 1202px;
+    height: 687px;
 
 }
 img[src^="stands/MainImg/"] {
@@ -37,13 +37,47 @@ img[src^="stands/MainImg/"] {
 
 }
 .MoreInfo {
-
+    font-size: 3em;
+    color:rgb(255, 255, 255);
+    background-color: rgb(13, 78, 0);
+    border:1em;
+    border-color: black;
 }
 
 h2 {
-
+    font-size: 4em;
 }
 
 p {
+    font-size: 2em;
+}
 
+img[src*="Backward"] {
+    width:;
+    height:;
+}
+
+.NAV-Stand-Image {
+    width:;
+    height:;
+}
+
+.Map-Image {
+    width:;
+    height:;
+}
+
+.Menu {
+    width:;
+    height:;
+}
+
+.Stand-Image {
+    width:;
+    height:;
+}
+
+.Cart-Image {
+    width:;
+    height:;
 }
