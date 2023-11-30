@@ -1,14 +1,21 @@
 /* @import url() */
 
 .JP-Header-About {
-    display: flex;
     max-height: 130px;
-    width: 100vw;
+    background-color: white;
+    border: 2px solid black;
 }
 
 .header-links {
+    border: 2px solid black;
     display: flex;
     flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    width: 500px;
+}
+
+.JP-Home-Link {
+    border: 2px solid black;
 }
 
 .JP-Header-Logo {
@@ -17,7 +24,10 @@
 }
 
 body {
-    background-image:;
+    background-image: url(../Background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: white;
 }
 
 .NAV-Title {
@@ -26,10 +36,14 @@ body {
     font-size: 3em;
 }
 
+.map-link {
+    display: flex;
+    justify-content: center;
+}
+
 .NAV-Map-Image {
     width: 1025px;
     height: 250px;
-
 }
 img[src^="stands/MainImg/"] {
     width: 380px;
@@ -37,15 +51,15 @@ img[src^="stands/MainImg/"] {
 
 }
 .MoreInfo {
-    font-size: 3em;
+    font-size: 2em;
     color:rgb(255, 255, 255);
     background-color: rgb(13, 78, 0);
     border:5px solid;
     border-color: black;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 h2 {
@@ -86,6 +100,34 @@ img[src*="Backward"] {
     height:100px;
 }
 
+.NAV-Stand-Main {
+    display: flex;
+    flex-wrap:wrap;
+    width:880px;
+    height:1400px;
+    justify-content: space-between;
+    align-content: space-between;
+    margin: auto;
+    padding: 10px;
+}
+
+.Stand-Section {
+    display:flex;
+    flex-wrap: wrap;
+    width: 380px;
+    height: 530px;
+}
 .Description {
-    background-color:;
+    background-color: darkgray;
+    width: 550px;
+    height: 530px;
+    border: 2px solid black;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.Stand-Title {
+    display: flex;
 }
