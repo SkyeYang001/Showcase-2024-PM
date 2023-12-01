@@ -1,25 +1,53 @@
 /* @import url() */
 
 .JP-Header-About {
+    display: flex;
+    justify-content: center;
     max-height: 130px;
     background-color: white;
-    border: 2px solid black;
+}
+
+.format-stuff {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90vw;
 }
 
 .header-links {
-    border: 2px solid black;
+    width: 50vw;
     display: flex;
-    flex-direction: row-reverse;
-    flex-wrap: nowrap;
-    width: 500px;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+a[href*="jp"] {
+    flex: 1;
+    text-decoration: none;
+    outline-color: transparent;
+    text-align: center;
+    line-height: 3;
+    color: black;
+    margin: 5px;
+}
+
+a[href*="jp"]:focus {
+    border-bottom: 2px solid black;
+}
+
+a[href*="jp"]:hover {
+    background-color: lightgray;
 }
 
 .JP-Home-Link {
-    border: 2px solid black;
+    display: flex;
+    justify-self: flex-start;
+    height: 130px;
+    width: 130px;
 }
 
 .JP-Header-Logo {
-    height: 130px;
+    height: auto;
     width: 130px;
 }
 
@@ -30,10 +58,19 @@ body {
     color: white;
 }
 
+
+
+/* Main Nav Page*/
+
+h1 {
+    font-size: 4em;
+}
+
 .NAV-Title {
-    display:flex;
+    display: flex;
     justify-content: center;
-    font-size: 3em;
+    align-items: center;
+    font-size: 4em;
 }
 
 .map-link {
@@ -42,19 +79,21 @@ body {
 }
 
 .NAV-Map-Image {
-    width: 1025px;
-    height: 250px;
+    width: auto;
+    height: 500px;
 }
+
 img[src^="stands/MainImg/"] {
     width: 380px;
     height: 250px;
 
 }
+
 .MoreInfo {
     font-size: 2em;
-    color:rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
     background-color: rgb(13, 78, 0);
-    border:5px solid;
+    border: 5px solid;
     border-color: black;
     padding-left: 10px;
     padding-right: 10px;
@@ -70,53 +109,61 @@ p {
     font-size: 2em;
 }
 
+img[src*=".png"]:not(.JP-Header-Logo) {
+    border: 10px solid darkgray;
+}
+
 img[src*="Backward"] {
-    width:60px;
-    height:60px;
+    width: 60px;
+    height: 60px;
 }
 
 .NAV-Stand-Image {
-    width: 380px;
+    width: auto;
     height: 250px;
 }
 
+.NAV-Map-Section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
 .Map-Image {
-    width:700px;
-    height:660px;
+    width: 700px;
+    height: 660px;
 }
 
 .Menu {
-    width:400px;
-    height:690px;
-}
-
-.Stand-Image {
-    width:800px;
-    height:690px;
+    width: 400px;
+    height: 690px;
 }
 
 .Cart-Image {
-    width:100px;
-    height:100px;
+    width: 100px;
+    height: 100px;
 }
 
 .NAV-Stand-Main {
     display: flex;
-    flex-wrap:wrap;
-    width:880px;
-    height:1400px;
+    flex-wrap: wrap;
+    width: 880px;
+    height: 1400px;
     justify-content: space-between;
     align-content: space-between;
     margin: auto;
     padding: 10px;
 }
 
-.Stand-Section {
-    display:flex;
+.NAV-Stand-Section {
+    display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     width: 380px;
     height: 530px;
 }
+
 .Description {
     background-color: darkgray;
     width: 550px;
@@ -128,6 +175,74 @@ img[src*="Backward"] {
     padding-bottom: 10px;
 }
 
+.NAV-Map-Description {
+    background-color: darkgray;
+    border: 2px solid black;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 550px;
+    height: 481px;
+}
+
+/* Concession Stands Pages*/
+
 .Stand-Title {
     display: flex;
+    align-items: center;
 }
+
+.Image-Stand-Section {
+    display: flex;
+    justify-content: center;
+}
+
+img[src$=".svg"] {
+    /* background-color: rgba(255, 255, 255, 0.525);*/
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    filter: invert(1);
+}
+
+.Stand-Image {
+    width: auto;
+    height: 690px;
+}
+
+.Stand-Description {
+    width: 100vw;
+    height: 220px;
+    display: flex;
+    justify-content: center;
+}
+
+.Stand-Text {
+    background-color: darkgray;
+    border: 2px solid black;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 165px;
+    display: flex;
+    width: 1350px;
+}
+
+/* Map Page*/
+
+.Map-Section {
+    display: flex;
+}
+
+.Map-Text {
+    background-color: darkgray;
+    border: 2px solid black;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* Cart Menu*/

@@ -12,21 +12,24 @@
 <body id="body">
 
     <section class="JP-Header-About">
-        <header>
-            <a href="jp site home page goes here">
+        <div class="format-stuff">
+            <a href="jp site home page goes here" class="JP-Home-Link">
                 <img src="../HeaderImg/header-logo.png" alt="Home" class="JP-Header-Logo">
             </a>
-            <a href="jp site home page goes here">Home</a>
-            <a href="jp site experience page goes here">Experience</a>
-            <a href="jp site dining page goes here">Dining</a>
-            <a href="jp site shopping page goes here">Shopping</a>
-            <a href="jp site about us page goes here">About Us</a>
-            <a href="jp site jurassicpay page goes here">JurassicPAY</a>
-            <a href="jp site tickets page goes here">Tickets</a>
-        </header>
+            <div class="header-links">
+                <a href="jp site home page goes here">Home</a>
+                <a href="jp site experience page goes here">Experience</a>
+                <a href="jp site dining page goes here">Dining</a>
+                <a href="jp site shopping page goes here">Shopping</a>
+                <a href="jp site about us page goes here">About Us</a>
+                <a href="jp site jurassicpay page goes here">JurassicPAY</a>
+                <a href="jp site tickets page goes here">Tickets</a>
+            </div>
+        </div>
     </section>
 
     <section class="Stand-Title">
+
         <figure>
             <a href="../index.html" class="Backward">
                 <img src="../Backward.svg" alt="Backward by Fontawesome">
@@ -35,7 +38,9 @@
 
         <h1>Dessert Stands</h1>
         <figure>
-            <img src="Menu/Cart.svg" alt="Cart by Fontawesome" class="Cart-Image">
+            <a href="" class="Cart">
+                <img src="Menu/Cart.svg" alt="Cart by Fontawesome" class="Cart-Image">
+            </a>
         </figure>
 
     </section>
@@ -51,90 +56,100 @@
 
     </section>
 
-    <p> There are many stands scattered about Jurassic park offering dessert-type foods such as ice cream, churros, and
-        candies.
-        Both our ice cream and churros are made in the park, and we offer a large variety of candy.
-        Just be sure not to let any dinosaurs get to your sweets.
-    </p>
-    <section class="Cart">
-        <h2>Your Cart</h2>
-        <input type="text" placeholder="Search..">
+    <section class="Stand-Description">
+        <p class="Stand-Text">
+            There are many stands scattered about Jurassic park offering dessert-type foods such as ice cream, churros,
+            and
+            candies.
+            Both our ice cream and churros are made in the park, and we offer a large variety of candy.
+            Just be sure not to let any dinosaurs get to your sweets.
+        </p>
+    </section>
 
-        <h2>Menu</h2>
+    <section class="Your-Cart-Section">
+        <section class="Your-Cart">
+            <h2>Your Cart</h2>
+            <input type="text" placeholder="Search..">
+        </section>
 
-        <h3>Prehistoric Patties</h3>
-        <ul>
-            <li>Meat</li>
-            <li>With Cheese</li>
-            <li>Double Meat</li>
-        </ul>
+        <section class="Cart-Menu">
+            <h2>Menu</h2>
 
-        <h3>Hotdog Stand</h3>
-        <ul>
-            <li>Plain</li>
-            <li>With Sauce</li>
-            <li>With Chili</li>
-        </ul>
+            <h3>Prehistoric Patties</h3>
+            <ul>
+                <li>Meat</li>
+                <li>With Cheese</li>
+                <li>Double Meat</li>
+            </ul>
 
-        <h3>Pterosaur Pies</h3>
-        <ul>
-            <li>Cheese</li>
-            <li>Pepperoni</li>
-            <li>Vegetables</li>
-        </ul>
+            <h3>Hotdog Stand</h3>
+            <ul>
+                <li>Plain</li>
+                <li>With Sauce</li>
+                <li>With Chili</li>
+            </ul>
 
-        <h3>Trike's Tacos</h3>
-        <ul>
-            <li>Taco</li>
-            <li>Taquitos</li>
-            <li>Quesadilla</li>
-        </ul>
+            <h3>Pterosaur Pies</h3>
+            <ul>
+                <li>Cheese</li>
+                <li>Pepperoni</li>
+                <li>Vegetables</li>
+            </ul>
 
-        <h3>T-Rex Cafe Stand</h3>
-        <ul>
-            <li>Burgers</li>
-            <li>Hotdogs</li>
-            <li>Pizza</li>
-            <li>Tacos</li>
-            <li>Pretzel</li>
-        </ul>
+            <h3>Trike's Tacos</h3>
+            <ul>
+                <li>Taco</li>
+                <li>Taquitos</li>
+                <li>Quesadilla</li>
+            </ul>
 
-        <h3>Popcorn Herbivore Hangout</h3>
-        <ul>
-            <li>Pretzel</li>
-            <li>Popcorn</li>
-        </ul>
+            <h3>T-Rex Cafe Stand</h3>
+            <ul>
+                <li>Burgers</li>
+                <li>Hotdogs</li>
+                <li>Pizza</li>
+                <li>Tacos</li>
+                <li>Pretzel</li>
+            </ul>
 
-        <h3>Dino Cream</h3>
-        <ul>
-            <li>Vanilla</li>
-            <li>Chocolate</li>
-            <li>Strawberry</li>
-            <li>Cookies n Cream</li>
-            <li>Dinosaur (Mint)</li>
-        </ul>
+            <h3>Popcorn Herbivore Hangout</h3>
+            <ul>
+                <li>Pretzel</li>
+                <li>Popcorn</li>
+            </ul>
 
-        <h3>Dippin' Dots</h3>
-        <ul>
-            <li>Chocolate</li>
-            <li>Mint</li>
-            <li>Cotton Candy</li>
-            <li>Cookies n Cream</li>
-        </ul>
+            <h3>Dino Cream</h3>
+            <ul>
+                <li>Vanilla</li>
+                <li>Chocolate</li>
+                <li>Strawberry</li>
+                <li>Cookies n Cream</li>
+                <li>Dinosaur (Mint)</li>
+            </ul>
 
-        <h3>Jurassic Juice</h3>
-        <ul>
-            <li>Water</li>
-            <li>Lemonade</li>
-            <li>Apple Juice</li>
-            <li>Orange Juice</li>
-            <li>Grape Juice</li>
-            <li>Soda Other drinks stand</li>
-            <li>Milkshake</li>
-            <li>Float</li>
-            <li>Coffee</li>
-            <li>Hot Chocolate</li>
-        </ul>
+            <h3>Dippin' Dots</h3>
+            <ul>
+                <li>Chocolate</li>
+                <li>Mint</li>
+                <li>Cotton Candy</li>
+                <li>Cookies n Cream</li>
+            </ul>
+
+            <h3>Jurassic Juice</h3>
+            <ul>
+                <li>Water</li>
+                <li>Lemonade</li>
+                <li>Apple Juice</li>
+                <li>Orange Juice</li>
+                <li>Grape Juice</li>
+                <li>Soda Other drinks stand</li>
+                <li>Milkshake</li>
+                <li>Float</li>
+                <li>Coffee</li>
+                <li>Hot Chocolate</li>
+            </ul>
+        </section>
+
     </section>
 
     <aside>
