@@ -176,12 +176,14 @@
         height: 30px;
     }
 
-    .Stand-Title-Mobile {
+    .Stand-Title:not(.Cart-Image) {
         display: flex;
         align-items: center;
     }
 
-    .Image-Stand-Section {}
+    .Image-Stand-Section {
+
+    }
 
     img[src$=".svg"] {
         /* background-color: rgba(255, 255, 255, 0.525);*/
@@ -226,6 +228,13 @@
         padding-right: 10px;
         padding-top: 10px;
         padding-bottom: 10px;
+        width:330px;
+        height:300px;
+    }
+
+    .Map-Image {
+        width:360px;
+        height:190px;
     }
 
     /* Cart Menu*/
