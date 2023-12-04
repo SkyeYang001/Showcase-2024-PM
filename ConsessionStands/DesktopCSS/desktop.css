@@ -113,11 +113,6 @@ img[src*=".png"]:not(.JP-Header-Logo) {
     border: 10px solid darkgray;
 }
 
-img[src*="Backward"] {
-    width: 60px;
-    height: 60px;
-}
-
 .NAV-Stand-Image {
     width: auto;
     height: 250px;
@@ -128,21 +123,6 @@ img[src*="Backward"] {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-}
-
-.Map-Image {
-    width: 700px;
-    height: 660px;
-}
-
-.Menu {
-    width: 400px;
-    height: 690px;
-}
-
-.Cart-Image {
-    width: 100px;
-    height: 100px;
 }
 
 .NAV-Stand-Main {
@@ -187,6 +167,21 @@ img[src*="Backward"] {
 }
 
 /* Concession Stands Pages*/
+
+.Menu {
+    width: 400px;
+    height: 690px;
+}
+
+.Cart-Image {
+    width: 100px;
+    height: 100px;
+}
+
+img[src*="Backward"] {
+    width: 60px;
+    height: 60px;
+}
 
 .Stand-Title {
     display: flex;
@@ -246,3 +241,4 @@ img[src$=".svg"] {
 }
 
 /* Cart Menu*/
+
