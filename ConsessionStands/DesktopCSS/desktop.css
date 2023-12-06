@@ -251,7 +251,7 @@ img[src$=".svg"] {
     .JP-Header-About {
         display: flex;
         justify-content: center;
-        max-height: 130px;
+        max-height: 100px;
         background-color: white;
     }
 
@@ -266,7 +266,8 @@ img[src$=".svg"] {
         width: 50vw;
         display: flex;
         justify-content: space-between;
-        font-size: 20px;
+        flex-wrap:wrap;
+        font-size: 18px;
     }
 
     a[href*="jp"] {
@@ -289,14 +290,17 @@ img[src$=".svg"] {
 
     .JP-Home-Link {
         display: flex;
-        justify-self: flex-start;
+        justify-self: center;
         height: 130px;
         width: 130px;
     }
 
     .JP-Header-Logo {
-        height: auto;
-        width: 55px;
+        height: 100px;
+        width: auto;
+        display: flex;
+        align-self: center;
+        justify-self: center;
     }
 
     body {
@@ -332,12 +336,12 @@ img[src$=".svg"] {
     }
 
     img[src^="stands/MainImg/"] {
-        width: 200px;
-        height: 120px;
+        width: 250px;
+        height: 150px;
     }
 
     .MoreInfo {
-        font-size: 15px;
+        font-size: 20px;
         color: rgb(255, 255, 255);
         background-color: rgb(13, 78, 0);
         border: 3px solid;
@@ -376,14 +380,14 @@ img[src$=".svg"] {
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 500px;
+        width: 600px;
         height: 500px;
     }
 
     .Description {
         background-color: darkgray;
-        width: 140px;
-        height: 230px;
+        width: 200px;
+        height: 330px;
         border: 2px solid black;
         padding-left: 10px;
         padding-right: 10px;
@@ -398,8 +402,8 @@ img[src$=".svg"] {
         padding-right: 5px;
         padding-top: 5px;
         padding-bottom: 5px;
-        width: 380px;
-        height: 150px;
+        width: 400px;
+        height: 180px;
     }
 
     /* Mobile Concession Stands Pages*/
@@ -410,13 +414,13 @@ img[src$=".svg"] {
     }
 
     .Cart-Image {
-        width: 60px;
-        height: 60px;
+        width: 70px;
+        height: 70px;
     }
 
     img[src*="Backward"] {
-        width: 40px;
-        height: 40px;
+        width: 60px;
+        height: 60px;
     }
 
     .Stand-Title {
@@ -447,10 +451,10 @@ img[src$=".svg"] {
     }
 
     .Stand-Description {
-        width: 350px;
-        height: 120px;
         display: flex;
-        justify-content: center;
+        justify-content:center;
+        width: 400px;
+        height: 300px;
     }
 
     .Stand-Text {
@@ -477,13 +481,13 @@ img[src$=".svg"] {
         padding-right: 10px;
         padding-top: 10px;
         padding-bottom: 10px;
-        width:360px;
-        height:220px;
+        width:400px;
+        height:300px;
     }
 
     .Map-Image {
-        width:360px;
-        height:205px;
+        width:400px;
+        height:230px;
     }
 
     /* Mobile Cart Menu*/
