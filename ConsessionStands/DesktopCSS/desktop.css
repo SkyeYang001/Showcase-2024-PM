@@ -94,6 +94,7 @@ img[src^="stands/MainImg/"] {
     padding-right: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
+    text-decoration: none;
 }
 
 h2 {
@@ -350,6 +351,7 @@ img[src$=".svg"] {
         padding-right: 10px;
         padding-top: 10px;
         padding-bottom: 10px;
+        text-decoration: none;
     }
 
     h2 {
@@ -452,7 +454,7 @@ img[src$=".svg"] {
 
     .Stand-Description {
         display: flex;
-        justify-content:center;
+        justify-content: center;
         width: 400px;
         height: 300px;
     }
