@@ -190,7 +190,6 @@ img[src*="Backward"] {
 }
 
 img[src$=".svg"] {
-    /* background-color: rgba(255, 255, 255, 0.525);*/
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 10px;
@@ -276,9 +275,9 @@ img[src$=".svg"] {
         text-decoration: none;
         outline-color: transparent;
         text-align: center;
-        line-height: 3;
+        line-height: 2;
         color: black;
-        margin: 5px;
+        margin: 8px;
     }
 
     a[href*="jp"]:focus {
@@ -316,14 +315,14 @@ img[src$=".svg"] {
     /* Mobile Main Nav Page*/
 
     h1 {
-        font-size: 2em;
+        font-size: 3em;
     }
 
     .NAV-Title {
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: 2em;
+        font-size: 3em;
     }
 
     .map-link {
@@ -332,17 +331,17 @@ img[src$=".svg"] {
     }
 
     .NAV-Map-Image {
-        width: 400px;
-        height: 230px;
+        width: 550px;
+        height: auto;
     }
 
     img[src^="stands/MainImg/"] {
-        width: 250px;
-        height: 150px;
+        width: 280px;
+        height: auto;
     }
 
     .MoreInfo {
-        font-size: 20px;
+        font-size: 25px;
         color: rgb(255, 255, 255);
         background-color: rgb(13, 78, 0);
         border: 3px solid;
@@ -355,28 +354,28 @@ img[src$=".svg"] {
     }
 
     h2 {
-        font-size: 20px;
+        font-size: 30px;
     }
 
     p {
-        font-size: 20px;
+        font-size: 23px;
     }
     
     img[src*=".png"]:not(.JP-Header-Logo) {
         border: 5px solid darkgray;
     }
 
-    .NAV-Stand-Image {
+    /* .NAV-Stand-Image {
 
     }
 
     .NAV-Map-Section {
-
+        font-size:15px;
     }
 
     .NAV-Stand-Main {
 
-    }
+    } */
 
     .NAV-Stand-Section {
         display: flex;
@@ -404,15 +403,15 @@ img[src$=".svg"] {
         padding-right: 5px;
         padding-top: 5px;
         padding-bottom: 5px;
-        width: 400px;
-        height: 180px;
+        width: 550px;
+        height: 250px;
     }
 
     /* Mobile Concession Stands Pages*/
 
     .Menu {
-        width: 270px;
-        height: 465px;
+        width: 400px;
+        height: auto;
     }
 
     .Cart-Image {
@@ -448,15 +447,15 @@ img[src$=".svg"] {
     }
 
     .Stand-Image {
-        width: 360;
-        height: 250px;
+        width: 550px;
+        height: auto;
     }
 
     .Stand-Description {
         display: flex;
-        justify-content: center;
+        justify-self: center;
         width: 400px;
-        height: 300px;
+        height: 310px;
     }
 
     .Stand-Text {

@@ -3,11 +3,14 @@
 }
 
 body {
-    font-family: sans-serif;
     background-color: rgb(240, 240, 240);
     display: grid;
     grid-template-rows: auto 1fr auto;
     min-height: 100vh;
+}
+
+.Your-Cart-Section {
+    font-family: sans-serif;
 }
 
 div > p {
@@ -172,11 +175,14 @@ nav>a:hover {
     }
     
     body {
-        font-family: sans-serif;
         background-color: rgb(240, 240, 240);
         display: grid;
         grid-template-rows: auto 1fr auto;
         min-height: 100vh;
+    }
+
+    .Your-Cart-Section {
+        font-family: sans-serif;
     }
     
     div > p {
