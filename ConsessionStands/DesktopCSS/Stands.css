@@ -13,6 +13,11 @@ body {
     font-family: sans-serif;
 }
 
+.Cart-Search-Bar {
+    display:flex;
+    justify-content: center;
+}
+
 div > p {
     font-size: 1em;
 }
@@ -183,6 +188,11 @@ nav>a:hover {
 
     .Your-Cart-Section {
         font-family: sans-serif;
+    }
+
+    .Cart-Search-Bar {
+        display:flex;
+        justify-content: flex-start;
     }
     
     div > p {
