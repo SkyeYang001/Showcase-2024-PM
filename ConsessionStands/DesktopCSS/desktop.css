@@ -1,60 +1,11 @@
 /* @import url() */
 
-.JP-Header-About {
-    display: flex;
-    justify-content: center;
-    max-height: 130px;
-    background-color: white;
-}
-
-.format-stuff {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 90vw;
-}
-
-.header-links {
-    width: 50vw;
-    display: flex;
-    justify-content: space-between;
-    font-size: 20px;
-}
-
-a[href*="jp"] {
-    flex: 1;
-    text-decoration: none;
-    outline-color: transparent;
-    text-align: center;
-    line-height: 3;
-    color: black;
-    margin: 5px;
-}
-
-a[href*="jp"]:hover {
-    background-color: lightgray;
-}
-
-.JP-Home-Link {
-    display: flex;
-    justify-self: flex-start;
-    height: 130px;
-    width: 130px;
-}
-
-.JP-Header-Logo {
-    height: auto;
-    width: 130px;
-}
-
 body {
     background-image: url(../Background.jpg);
     background-repeat: repeat-y;
     background-size: 100%;
     color: white;
 }
-
-
 
 /* Main Nav Page*/
 
@@ -80,8 +31,8 @@ h1 {
 }
 
 img[src^="stands/MainImg/"] {
-    width: 380px;
-    height: 250px;
+    width: 400px;
+    height: auto;
 }
 
 .MoreInfo {
@@ -107,11 +58,6 @@ p {
 
 img[src*=".png"]:not(.JP-Header-Logo) {
     border: 10px solid darkgray;
-}
-
-.NAV-Stand-Image {
-    width: auto;
-    height: 250px;
 }
 
 .NAV-Map-Section {
@@ -143,9 +89,9 @@ img[src*=".png"]:not(.JP-Header-Logo) {
 .Description {
     background-color: darkgray;
     width: 650px;
-    height: 530px;
+    height: 480px;
     border: 2px solid black;
-    padding-left: 10px;
+    padding-left: 13px;
     padding-right: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -181,6 +127,7 @@ img[src*="Backward"] {
 
 .Stand-Title {
     display: flex;
+    justify-content: center;
     align-items: center;
 }
 
@@ -204,7 +151,7 @@ img[src$=".svg"] {
 
 .Stand-Description {
     width: 100vw;
-    height: 220px;
+    height: 15vw;
     display: flex;
     justify-content: center;
 }
@@ -212,12 +159,12 @@ img[src$=".svg"] {
 .Stand-Text {
     background-color: darkgray;
     border: 2px solid black;
+    display: flex;
+    width: 1350px;
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 10px;
-    padding-bottom: 165px;
-    display: flex;
-    width: 1350px;
+    padding-bottom: 10px;
 }
 
 /* Map Page*/
@@ -233,10 +180,11 @@ img[src$=".svg"] {
     padding-right: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
+    height:660px;
 }
 
 .Map-Image {
-    width:700px;
+    width:auto;
     height:660px;
 }
 
@@ -247,61 +195,6 @@ img[src$=".svg"] {
 /* Mobile Pages*/
 
 @media only screen and (max-width:640px){
-
-    .JP-Header-About {
-        display: flex;
-        justify-content: center;
-        max-height: 100px;
-        background-color: white;
-    }
-
-    .format-stuff {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        width: 90vw;
-    }
-
-    .header-links {
-        width: 50vw;
-        display: flex;
-        justify-content: space-between;
-        flex-wrap:wrap;
-        font-size: 18px;
-    }
-
-    a[href*="jp"] {
-        flex: 1;
-        text-decoration: none;
-        outline-color: transparent;
-        text-align: center;
-        line-height: 2;
-        color: black;
-        margin: 8px;
-    }
-
-    a[href*="jp"]:focus {
-        border-bottom: 2px solid black;
-    }
-
-    a[href*="jp"]:hover {
-        background-color: lightgray;
-    }
-
-    .JP-Home-Link {
-        display: flex;
-        justify-self: center;
-        height: 130px;
-        width: 130px;
-    }
-
-    .JP-Header-Logo {
-        height: 100px;
-        width: auto;
-        display: flex;
-        align-self: center;
-        justify-self: center;
-    }
 
     body {
         background-image: url(../Background.jpg);
@@ -365,11 +258,7 @@ img[src$=".svg"] {
         border: 5px solid darkgray;
     }
 
-    /* .NAV-Stand-Image {
-
-    }
-
-    .NAV-Map-Section {
+    /* .NAV-Map-Section {
         font-size:15px;
     }
 
@@ -390,10 +279,10 @@ img[src$=".svg"] {
         width: 200px;
         height: 330px;
         border: 2px solid black;
-        padding-left: 10px;
-        padding-right: 10px;
-        padding-top: 10px;
-        padding-bottom: 10px;
+        padding-left: 13px;
+        padding-right: 13px;
+        padding-top: 0px;
+        padding-bottom: 15px;
     }
 
     .NAV-Map-Description {
@@ -404,7 +293,7 @@ img[src$=".svg"] {
         padding-top: 5px;
         padding-bottom: 5px;
         width: 550px;
-        height: 250px;
+        height: 200px;
     }
 
     /* Mobile Concession Stands Pages*/
@@ -452,10 +341,10 @@ img[src$=".svg"] {
     }
 
     .Stand-Description {
+        width: 95vw;
+        height: 45vw;
         display: flex;
-        justify-self: center;
-        width: 400px;
-        height: 310px;
+        justify-content: center;
     }
 
     .Stand-Text {
@@ -483,12 +372,12 @@ img[src$=".svg"] {
         padding-top: 10px;
         padding-bottom: 10px;
         width:400px;
-        height:300px;
+        height:430px;
     }
 
     .Map-Image {
-        width:400px;
-        height:230px;
+        width:550px;
+        height:auto;
     }
 
     /* Mobile Cart Menu*/
