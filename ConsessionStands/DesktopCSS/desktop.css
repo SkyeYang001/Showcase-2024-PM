@@ -49,7 +49,7 @@ img[src^="stands/MainImg/"] {
 }
 
 h2 {
-    font-size: 4em;
+    font-size: 3em;
 }
 
 p {
@@ -105,7 +105,7 @@ img[src*=".png"]:not(.JP-Header-Logo) {
     padding-top: 10px;
     padding-bottom: 10px;
     width: 550px;
-    height: 481px;
+    height: 480px;
 }
 
 /* Concession Stands Pages*/
