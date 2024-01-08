@@ -3,10 +3,6 @@
     flex-direction: row;
     justify-content: space-around;
     margin: 0rem;
-    /* padding-left:1em; */
-    /* padding-top: 2em;*/
-    
-
 }
 
 .JP-Header-About {
@@ -17,7 +13,7 @@
 .headerItem {
     display: inline-block;
     position: relative;
-    /* color: #0087ca; */
+    font-size: 2em;
 }
 
 .headerItem::after {
@@ -39,8 +35,6 @@
     transform-origin: bottom center;
 }
 
-/* Remove underscore for url stuff */
-
 a:link {
     text-decoration: none;
 }
@@ -61,7 +55,7 @@ a:active {
 }
 
 a {
-    color:white;
+    color: white;
 }
 
 @media only screen and (max-width:640px) {
