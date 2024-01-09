@@ -194,7 +194,9 @@ img[src$=".svg"] {
 
 /* Mobile Pages*/
 
-@media only screen and (max-width:640px) and (min-device-pixel-ratio: 1.5){
+@media only screen and (max-width:640px)
+ /* and (min-device-pixel-ratio: 1.5) */
+ {
 
     body {
         background-image: url(../Background.jpg);
