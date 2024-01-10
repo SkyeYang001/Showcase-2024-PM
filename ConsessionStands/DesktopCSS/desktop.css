@@ -261,17 +261,20 @@ img[src$=".svg"] {
 
     /* .NAV-Map-Section {
         font-size:15px;
-    }
+    } */
 
     .NAV-Stand-Main {
-
-    } */
+        display: flex;
+        flex-direction: column;
+        width: 80vw;
+    }
 
     .NAV-Stand-Section {
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 600px;
+        flex-direction: column;
+        width: 500px;
         height: 500px;
     }
 
@@ -280,8 +283,6 @@ img[src$=".svg"] {
         width: 200px;
         height: 330px;
         border: 2px solid black;
-        padding-left: 13px;
-        padding-right: 13px;
         padding-top: 0px;
         padding-bottom: 15px;
     }

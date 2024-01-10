@@ -96,7 +96,7 @@ div>p {
 
 .cartItem {
     border: solid 1px black;
-    background-color: white;
+    background-color: rgb(130, 130, 130);
     padding: 0.5rem;
     transition: box-shadow 500ms ease;
     display: flex;
