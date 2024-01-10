@@ -201,7 +201,6 @@ img[src$=".svg"] {
     body {
         background-image: url(../Background.jpg);
         background-repeat: repeat-y;
-        background-size: 400%;
         color: white;
     }
 

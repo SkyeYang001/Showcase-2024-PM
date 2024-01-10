@@ -22,7 +22,6 @@ div>p {
     grid-template-columns: repeat(3, 1fr);
     gap: 1em;
     margin-bottom: 2rem;
-    border: 2px solid black;
 }
 
 .product {
@@ -61,7 +60,7 @@ div>p {
     display: block;
     float: right;
     background-color: rgb(255, 222, 4);
-    color: white;
+    color: rgb(255, 255, 255);
     padding: 1em;
     text-decoration: none;
     border-radius: 0.5em;
